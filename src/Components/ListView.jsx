@@ -44,7 +44,7 @@ const ListView = ({ products }) => {
                   {data.isActive ? "Available" : "Not Available"}
                 </td>
                 <td className="border p-2">{data.tags.join(", ")}</td>
-                <td className="border p-2 flex justify-center items-center h-11">
+                <td className="border pl-6">
                   <FaEdit
                     onClick={() => {
                       setEditingProduct(data);

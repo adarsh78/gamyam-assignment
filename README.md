@@ -2,6 +2,8 @@
 
 ## A Products Frontend app
 
+[Live site here](https://gamyam-assignment-adarsh.netlify.app/)
+
 This App Contains all the data in the provided json file. Will all the functionalities mentioned.
 
 I have a theme toggle functionality and made this assignment responsive as well using TailwindCSS.
