@@ -46,6 +46,7 @@ const ListView = ({ products }) => {
                 <td className="border p-2">{data.tags.join(", ")}</td>
                 <td className="border pl-6">
                   <FaEdit
+                  className="cursor-pointer"
                     onClick={() => {
                       setEditingProduct(data);
                       setModal(true);

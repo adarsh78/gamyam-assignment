@@ -138,7 +138,7 @@ const AddProduct = () => {
                     onChange={handleChange}
                   />
                   {errors.name && (
-                    <p className="text-red-800 text-[12px]">{errors.name}</p>
+                    <p className="text-red-800 text-[12px] mr-3">{errors.name}</p>
                   )}
                 </div>
               </div>
@@ -155,7 +155,7 @@ const AddProduct = () => {
                     onChange={handleChange}
                   />
                   {errors.price && (
-                    <p className="text-red-800 text-[12px]">{errors.price}</p>
+                    <p className="text-red-800 text-[12px] ml-10">{errors.price}</p>
                   )}
                 </div>
               </div>
@@ -172,7 +172,7 @@ const AddProduct = () => {
                     onChange={handleChange}
                   />
                   {errors.category && (
-                    <p className="text-red-800 text-[12px]">
+                    <p className="text-red-800 text-[12px] mr-[7rem]">
                       {errors.category}
                     </p>
                   )}
@@ -191,7 +191,7 @@ const AddProduct = () => {
                     onChange={handleChange}
                   />
                   {errors.stock && (
-                    <p className="text-red-800 text-[12px]">{errors.stock}</p>
+                    <p className="text-red-800 text-[12px] ml-9">{errors.stock}</p>
                   )}
                 </div>
               </div>
@@ -208,7 +208,7 @@ const AddProduct = () => {
                     onChange={handleChange}
                   />
                   {errors.status && (
-                    <p className="text-red-800 text-[12px]">{errors.status}</p>
+                    <p className="text-red-800 text-[12px] mr-[7rem]">{errors.status}</p>
                   )}
                 </div>
               </div>
@@ -225,7 +225,7 @@ const AddProduct = () => {
                     onChange={handleChange}
                   />
                   {errors.tags && (
-                    <p className="text-red-800 text-[12px]">{errors.tags}</p>
+                    <p className="text-red-800 text-[12px] mr-[3rem]">{errors.tags}</p>
                   )}
                 </div>
               </div>
